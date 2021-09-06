@@ -1,0 +1,501 @@
+/* _____Nav BAr----------------------------------- */
+@charset "utf-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+body{
+	margin:0px;
+	padding: 0px;
+	/* font-family: poppins; */
+  font-family: 'Bungee';
+  font-size: 22px;
+	/*height: 100vh;*/
+  background: rgb(34,148,195) ;
+background: linear-gradient(0deg, rgba(34,148,195,1) 0%, rgba(250,250,250,1) 100%);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.logonav{
+  width: 70px;
+  background-color: white;
+  border-radius: 50%;
+}
+.wrapper {
+  height: 18vh;
+  /*This part is important for centering*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.typing-demo {
+  
+  width: 19ch;
+  animation: typing 1.5s steps(18), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  /* border-right: 3px solid; */
+  font-family: 'Merriweather', serif;
+  font-size: 2em;
+  /* margin-bottom: 608px; */
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+
+/* _____Nav BAr----------------------------------- */
+/* xxxxxxxxxxxxx---------------xxxxxxxxxxxxx */
+
+.cuc {
+  display: block;
+  margin-top : 0px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0px;
+  width: 400px;
+  height : 400px;
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+#birdRL{
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  position: relative;
+  float : right ;
+  right: -35%;  
+  width : 9% ; height :auto;
+  }
+#birdLR
+  {
+    position: relative;
+    float : left ;  
+    left: -40%;
+    width : 9% ; height :auto;
+  }
+  
+  @media screen and (max-width: 600px) {
+  #birdLR{
+    width : 13% ; height :auto;
+  }
+  #birdRL{
+    width : 13% ; height :auto;
+  }
+  } 
+
+  #banner {
+		padding: 10em 0 4.75em 0 ;
+	}
+
+		#banner .inner {
+			margin: 0 auto;
+			width: 55em;
+		}
+
+		#banner .logo {
+			-moz-transition: opacity 2s ease, -moz-transform 1s ease;
+			-webkit-transition: opacity 2s ease, -webkit-transform 1s ease;
+			-ms-transition: opacity 2s ease, -ms-transform 1s ease;
+			transition: opacity 2s ease, transform 1s ease;
+			-moz-transform: translateY(0);
+			-webkit-transform: translateY(0);
+			-ms-transform: translateY(0);
+			transform: translateY(0);
+			opacity: 1;
+			margin: 0 0 1.3em 0;
+		}
+
+			#banner .logo .icon {
+				border-radius: 100%;
+				border: solid 2px rgba(255, 255, 255, 0.125);
+				cursor: default;
+				display: inline-block;
+				font-size: 2em;
+				height: 2.25em;
+				line-height: 2.25em;
+				text-align: center;
+				width: 2.25em;
+			}
+
+		#banner h2 {
+			-moz-transition: opacity 0.5s ease, -moz-transform 0.5s ease, -moz-filter 0.25s ease;
+			-webkit-transition: opacity 0.5s ease, -webkit-transform 0.5s ease, -webkit-filter 0.25s ease;
+			-ms-transition: opacity 0.5s ease, -ms-transform 0.5s ease, -ms-filter 0.25s ease;
+			transition: opacity 0.5s ease, transform 0.5s ease, filter 0.25s ease;
+			-moz-transform: translateX(0);
+			-webkit-transform: translateX(0);
+			-ms-transform: translateX(0);
+			transform: translateX(0);
+			-moz-transition-delay: 0.65s;
+			-webkit-transition-delay: 0.65s;
+			-ms-transition-delay: 0.65s;
+			transition-delay: 0.65s;
+			-moz-filter: blur(0);
+			-webkit-filter: blur(0);
+			-ms-filter: blur(0);
+			filter: blur(0);
+			opacity: 1;
+			border-bottom: solid 2px rgba(255, 255, 255, 0.125);
+			font-size: 2.25em;
+			margin-bottom: 0.8em;
+			padding-bottom: 0.4em;
+		}
+
+		#banner p {
+			-moz-transition: opacity 0.5s ease, -moz-transform 0.5s ease, -moz-filter 0.25s ease;
+			-webkit-transition: opacity 0.5s ease, -webkit-transform 0.5s ease, -webkit-filter 0.25s ease;
+			-ms-transition: opacity 0.5s ease, -ms-transform 0.5s ease, -ms-filter 0.25s ease;
+			transition: opacity 0.5s ease, transform 0.5s ease, filter 0.25s ease;
+			-moz-transform: translateX(0);
+			-webkit-transform: translateX(0);
+			-ms-transform: translateX(0);
+			transform: translateX(0);
+			-moz-transition-delay: 0.8s;
+			-webkit-transition-delay: 0.8s;
+			-ms-transition-delay: 0.8s;
+			transition-delay: 0.8s;
+			-moz-filter: blur(0);
+			-webkit-filter: blur(0);
+			-ms-filter: blur(0);
+			filter: blur(0);
+			opacity: 1;
+			font-family: Raleway, Helvetica, sans-serif;
+			font-size: 1em;
+			font-weight: 200;
+			letter-spacing: 0.1em;
+			line-height: 2;
+			
+		}
+
+		@media screen and (max-width: 1280px) {
+
+			#banner {
+				padding: 7em 0 8.25em 0 ;
+				background-color: #2e3141;
+				/*background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");*/
+				background-size: auto,
+ cover;
+				background-position: center,
+ center;
+				margin-bottom: -6.5em;
+			}
+
+		}
+
+		@media screen and (max-width: 980px) {
+
+			#banner {
+				padding: 12em 3em 12.375em 3em ;
+				margin-bottom: -4.75em;
+			}
+
+				#banner .inner {
+					width: 100%;
+				}
+
+		}
+
+		@media screen and (max-width: 736px) {
+
+			#banner {
+				padding: 5em 2em 4.25em 2em ;
+				margin-bottom: -2.5em;
+			}
+
+				#banner .logo {
+					margin: 0 0 1em 0;
+				}
+
+					#banner .logo .icon {
+						font-size: 1.5em;
+					}
+
+				#banner h2 {
+					font-size: 0.9em;
+				}
+
+				#banner p {
+					font-size: 0.6em;
+				}
+
+		}
+
+				@media screen and (max-width: 360px) {
+
+			#banner {
+				padding: 4em 1em 4.25em 1em ;
+				margin-bottom: -2.5em;
+			}
+
+				#banner h2 {
+					font-size: 0.7em;
+					text-align: left;
+				}
+
+				#banner p {
+					text-align: left;
+					font-size: 0.5em;
+				}
+
+		}
+
+		body.is-preload #banner .logo {
+			-moz-transform: translateY(0.5em);
+			-webkit-transform: translateY(0.5em);
+			-ms-transform: translateY(0.5em);
+			transform: translateY(0.5em);
+			opacity: 0;
+		}
+
+		body.is-preload #banner h2 {
+			opacity: 0;
+			-moz-transform: translateX(0.25em);
+			-webkit-transform: translateX(0.25em);
+			-ms-transform: translateX(0.25em);
+			transform: translateX(0.25em);
+			-moz-filter: blur(2px);
+			-webkit-filter: blur(2px);
+			-ms-filter: blur(2px);
+			filter: blur(2px);
+		}
+
+		body.is-preload #banner p {
+			opacity: 0;
+			-moz-transform: translateX(0.5em);
+			-webkit-transform: translateX(0.5em);
+			-ms-transform: translateX(0.5em);
+			transform: translateX(0.5em);
+			-moz-filter: blur(2px);
+			-webkit-filter: blur(2px);
+			-ms-filter: blur(2px);
+			filter: blur(2px);
+		}
+
+
+
+
+
+
+
+
+/*---------------------- -------------------foooter style --------------------------------- */
+  /* <link href='https://fonts.googleapis.com/css?family=Boogaloo' rel='stylesheet'> */
+  .site-footer
+{
+  height: fit-content;
+  width: 100%;
+  text-align:center;
+  padding-top: 20px;
+  background-color:#26272b;
+  padding:45px 0 20px;
+  /* font-size:15px; */
+  font-size: 0.9rem;
+  font-family: 'Boogaloo';
+  line-height:24px;
+  color:#737373;
+  position:relative;
+  bottom: -370px;
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color:#737373;
+}
+.site-footer a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+.footer-links li
+{
+  display:block
+}
+.footer-links a
+{
+  color:#737373
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+.site-footer .social-icons
+{
+  text-align:right
+}
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#33353d
+}
+.copyright-text
+{
+  margin:0
+}
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  }
+}
+#sicon{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.social-icons
+{
+  align-items: center;
+  justify-content: center;
+  /* padding-left:0; */
+  padding-right: 0;
+  margin-bottom:0;
+  list-style:none
+}
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+.social-icons li.title
+{
+  /* margin-right:15px; */
+  text-transform:uppercase;
+  color:#96a2b2;
+  font-weight:700;
+  font-size:13px
+}
+.social-icons a{
+  background-color:#eceeef;
+  color:#818a91;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  /* margin-right:8px; */
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:#fff;
+  background-color:#29aafe
+}
+.social-icons.size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
+}
+.social-icons a.facebook:hover
+{
+  background-color:#3b5998
+}
+.social-icons a.twitter:hover
+{
+  background-color:#00aced
+}
+.social-icons a.linkedin:hover
+{
+  background-color:#007bb6
+}
+.social-icons a.dribbble:hover
+{
+  background-color:#ea4c89
+}
+
+@media (max-width:767px)
+{
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600
+  
+  }
+}
+
+/* ------------------------------back to top button----------------------------- */
+.back-to-top {
+  position: relative;
+  z-index: 2; }
+  .back-to-top .btn-dark {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    padding: 0;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #2e2e2e;
+    border-color: #2e2e2e;
+    display: none;
+    z-index: 999;
+    -webkit-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear; }
+    .back-to-top .btn-dark:hover {
+      cursor: pointer;
+      background: #4273fa;
+      border-color: #FA6742; }
+      
