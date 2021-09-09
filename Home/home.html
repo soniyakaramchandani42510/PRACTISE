@@ -2,9 +2,14 @@
 <html lang="en">
 
 <head>
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE-edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0,user-scalable=no,maximum-scale=1.0, minimum-scale=1.0">
+    <!-- AOS lib  -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <link rel="stylesheet" href="home.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -22,9 +27,8 @@
 
 
 
-
-
 <body class="is-preload" onload="fun()">
+
     <!-- </main> -->
 
     <!-- -xxxxxxxxxxxxx---nav bar-------xxxxxxxxxx- -->
@@ -87,10 +91,17 @@
 
     <!------xxxxxxxxx- banner----xxxxxxxxxxxxxxxxxx -->
     <!------xxxxxxxxx- banner----xxxxxxxxxxxxxxxxxx -->
-    <img class="cuc" src="/images.png" alt="Team CUC">
-    <header id="header" class="alt">
-        <h1><a href="\">Team CUC</a></h1>
-    </header>
+    <section id="banner">
+        <img class="cuc" src="/images.png" alt="Team CUC">
+        <header class="alt">
+            <h1><a href="\">Team CUC</a></h1>
+        </header>
+        <img id="birdLR" src="giphy.gif" />
+        <img id="birdRL" src="giphy.gif" />
+
+        <!-- <button onclick="myMove()">Click Me</button> -->
+    </section>
+    <br>
     <!------xxxxxxxxx- banner----xxxxxxxxxxxxxxxxxx -->
     <!------xxxxxxxxx- banner----xxxxxxxxxxxxxxxxxx -->
 
@@ -98,97 +109,254 @@
     <!------xxxxxxxxx- header----xxxxxxxxxxxxxxxxxx -->
     <!------xxxxxxxxx- header----xxxxxxxxxxxxxxxxxx -->
     <!-- header -->
-    <section id="banner">
-        <div class="inner">
+    <section id="heading" data-aos="zoom-in-up">
+        <div>
             <div class="logo"><span class="CUC"></span></div>
-
-            <img id="birdLR" src="giphy.gif" />
-            <img id="birdRL" src="giphy.gif" />
-            <!-- <button onclick="myMove()">Click Me</button> -->
 
             <h2>PROJECT DIRECTORY BY CUC</h2>
             <p>PROJECTS ARE AN ESSENTIAL AND ENJOYING PART OF THE COLLEGE ACADEMICS. HOWEVER, STUDENTS, ESPECIALLY
                 OF 1st AND 2nd YEAR, ARE CONFUSED WHILE SELECTING PROJECT TOPICS. THEY ARE TROUBLED IN WHERE TO
                 START AND WHAT TO DO. THIS WEBSITE FEATURES HUNDREDS OF PROJECTS COLLECTED FROM IIT(BHU) BY OUR
                 TEAM. WE BELIEVE THAT THIS WEBSITE WILL BE OF CERTAIN HELP TO YOU ALL. <b>ALL THE BEST FOR YOUR
-                    PROJECTS!!!</b>
-            </p>
+                    PROJECTS!!!</b> </p>
         </div>
+
+        <center id="catago"><b>PROJECT CATEGORIES</b></center>
+
     </section>
 
 
     <!------xxxxxxxxx- header----xxxxxxxxxxxxxxxxxx -->
     <!------xxxxxxxxx- header----xxxxxxxxxxxxxxxxxx -->
 
+    <!-- WRAPPER  -->
+    <!-- WRAPPER  -->
 
+    <!-- Wrapper -->
+    <section id="wrapper">
+
+        <!-- One -->
+        <!-- android   -->
+        <section id="android" data-aos="slide-left">
+
+            <div class="blog-slider">
+                <div class="blog-slider__wrp">
+                    <div class="blog-slider__item">
+                        <div class="blog-slider__img">
+                            <img src="/images/android-logo.png" alt="">
+                        </div>
+                        <div>
+                            <span class="blog-slider__code">26 December 2019</span>
+                            <div class="blog-slider__title">ANDROID DEVELOPMENT PROJECTS</div>
+                            <div class="blog-slider__text">Ever pondered how the apps for your phone are built ?? Do you
+                                also wish to make a cool app by
+                                yourselves ?? Android is a fascinating OS and is in great demand too!!! Check out this
+                                list
+                                of Android projects...</div>
+                            <a href="#" class="blog-slider__button">READ MORE</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Two -->
+        <!-- deep learning  -->
+        <section id="dl" data-aos="slide-right">
+            <div class="blogR-slider">
+                <div class="blogR-slider__wrp">
+                    <div class="blogR-slider__item">
+                        <div class="blogR-slider__img">
+                            <img src="/images/deeplearning.png" alt="">
+                        </div>
+                        <div id="blogR_cont">
+                            <span class="blogR-slider__code">26 December 2019</span>
+                            <div class="blogR-slider__title">DEEP LEARNING PROJECTS</div>
+                            <div class="blogR-slider__text">Deep Learning Algorithms are subfields of Machine Learning.
+                                These algorithms are beneficial
+                                to produce models with very high final accuracy. They are now widely used in
+                                Artificially
+                                Intelligent processes. Do you want to dive deep in Deep Learning ? March ahead with the
+                                list...</div>
+                            <a href="#" class="blogR-slider__button">READ MORE</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Three -->
+        <!-- department core  -->
+        <section id="deptcore" data-aos="slide-left">
+
+            <div class="blog-slider">
+                <div class="blog-slider__wrp">
+                    <div class="blog-slider__item">
+                        <div class="blog-slider__img">
+                            <img src="/images/core project1.jpg" alt="">
+                        </div>
+                        <div>
+                            <span class="blog-slider__code">26 December 2019</span>
+                            <div class="blog-slider__title">DEPARTMENT CORE PROJECTS</div>
+                            <div class="blog-slider__text">Are you looking to explore your department's core concepts??
+                                Or finding an Exploratory or B.
+                                Tech. Project for yourself ?? Well, we have an extensive list of projects exclusively in
+                                the
+                                core. Check out...</div>
+                            <a href="#" class="blog-slider__button">READ MORE</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- four  -->
+        <!-- machinelearning   -->
+        <section id="ml" data-aos="slide-right">
+
+            <div class="blogR-slider">
+                <div class="blogR-slider__wrp">
+                    <div class="blogR-slider__item">
+                        <div class="blogR-slider__img">
+                            <img src="/images/machinelearning.jpeg" alt="">
+                        </div>
+                        <div id="blogR_cont">
+                            <span class="blogR-slider__code">26 December 2019</span>
+                            <div class="blogR-slider__title">MACHINE LEARNING PROJECTS</div>
+                            <div class="blogR-slider__text">The world has suddenly become a vast data factory, with data
+                                getting produced at an Amazing
+                                speed. More than 90% of the available world data ever has been created in the last three
+                                years or so. The rapid evolution in Machine Learning has caused a subsequent rise in the
+                                use
+                                cases, demands. The sheer importance of ML in modern life is just endless. Let's explore
+                                some...</div>
+                            <a href="#" class="blogR-slider__button">READ MORE</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- five  -->
+        <!-- webdev project   -->
+        <section id="webdev" data-aos="slide-left">
+
+            <div class="blog-slider">
+                <div class="blog-slider__wrp">
+                    <div class="blog-slider__item">
+                        <div class="blog-slider__img">
+                            <img src="/images/webdev1.jpg" alt="">
+                        </div>
+                        <div>
+                            <span class="blog-slider__code">26 December 2019</span>
+                            <div class="blog-slider__title">WEB DEVELOPMENT PROJECTS</div>
+                            <div class="blog-slider__text">You must be thinking about how we have made this website. Do
+                                you want to explore some
+                                concepts of Web Development ? So, this is the time for it. Let's get started with your
+                                first
+                                web project...</div>
+                            <a href="#" class="blog-slider__button">READ MORE</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- six -->
+        <!-- other catagories  -->
+        <section id="othercat" data-aos="slide-right">
+            <div class="blog-slider">
+                <div class="blog-slider__wrp">
+                    <div class="blog-slider__item">
+                        <div class="blog-slider__img">
+                            <img src="/images/cuc.png" alt="">
+                        </div>
+                        <div>
+                            <span class="blog-slider__code">26 December 2019</span>
+                            <div class="blog-slider__title">OTHER CATEGORIES</div>
+                            <div class="blog-slider__text">Didn't find any of the above categories suitable ? Well,
+                                don't be afraid...We have more
+                                categories for you. Go check out below....</div>
+                            <a href="#" class="blog-slider__button">Browse All</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </section>
+
+
+
+
+
+    <!-- WRAPPER  -->
+    <!-- WRAPPER  -->
 
 
     <!-- xxxxxxxxxxxxxxxxxxxxxxxxxx -------------------------- -->
     <!-------------------------footer-----xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx---->
     <!-- <footer> -->
 
-    <footer class="site-footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12 col-md-6">
-                    <h6>About</h6>
-                    <p class="text-justify">CUC is a group of buddies from the 2018 entrance batch of Electrical
-                        Engineering Department, IIT(BHU). From a formal HVEE group in 1st
-                        sem to this time, CUC has evolved not as a group but as a family, where we all live, study and
-                        enjoy together. We are a group of
-                        friends always excited to explore new things.
-                        Apart from cooperating only in academics,
-                        CUCians always enjoy a lot, celebrate together, stand united in tough times and make the best of
-                        their college memories</p>
+    <footer data-aos="fade-up" class="footer-59391">
+        <div class="border-bottom pb-5 mb-4">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-3">
+                        <form action="#" class="subscribe mb-4 mb-lg-0">
+                            <div class="form-group">
+                                <input type="email" class="form-control" placeholder="Enter your email">
+                                <a href="mailto:teamcuc18@gmail.com" target="_blank"><button><span class="fas fa-envelope"></span></button></a>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-lg-6 text-lg-center">
+                        <ul class="list-unstyled nav-links nav-left mb-4 mb-lg-0">
+                            <li><a href="#">Android</a></li>
+                            <li><a href="#">Machine Learning</a></li>
+                            <li><a href="#">Research</a></li>
+                            <li><a href="#">Web Deveopment</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3">
+                        <ul class="list-unstyled nav-links social nav-right text-lg-right">
+                            <li><a href="#"><span class="fa fa-twitter"></span></a></li>
+                            <li><a href="#"><span class="fa fa-github"></span></a></li>
+                            <li><a href="#"><span class="fa fa-facebook"></span></a></li>
+                            <li><a href="#"><span class="fa fa-linkedin"></span></a></li>
+                        </ul>
+                    </div>
                 </div>
-
-                <div class="col-xs-6 col-md-3">
-                    <h6>Categories</h6>
-                    <ul class="footer-links">
-                        <li><a href="#">Deep learning projects</a></li>
-                        <li><a href="#">Department core projects</a></li>
-                        <li><a href="#">High Performance computing projects</a></li>
-
-                        <li><a href="#">Machine learning projects</a></li>
-                        <li><a href="#">Robotics projects</a></li>
-                        <li><a href="#">Web development projects</a></li>
-                        <li><a href="#"> Miscellaneous projects</a></li>
-                        <li><a href="#">Project ideas</a></li>
-                    </ul>
-                </div>
-
-                <div class="col-xs-6 col-md-3">
-                    <h6>Quick Links</h6>
-                    <ul class="footer-links">
-                        <li><a href="http://scanfcode.com/contribute-at-scanfcode/">Home</a></li>
-                        <li><a href="http://scanfcode.com/privacy-policy/">More Ideas</a></li>
-                        <li><a href="http://scanfcode.com/about/">About Us</a></li>
-                        <li><a href="http://scanfcode.com/contact/">Contact Us</a></li>
-                    </ul>
-                </div>
-            </div>
-            <hr>
-        </div>
-        <div class="container">
-            <div class="row">
-
-                <div class="col-md-4 " id="sicon">
-                    <!-- <div class="col-md-4 col-sm-6 col-xs-12"> -->
-                    <ul class="social-icons ">
-                        <!-- <i class="fa fa-facebook"></i> -->
-                        <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
-                        <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
-                    </ul>
-                </div>
-
             </div>
         </div>
 
-        Contact Us: <a href="mailto:teamcuc18@gmail.com" target="_blank">Team CUC</a>
+        <div id="container" class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-4 text-lg-center site-logo order-1 order-lg-2 mb-3 mb-lg-0">
+                    <a href="#" class="m-0 p-0">Team CUC</a>
+                </div>
+                <div class="col-lg-4 order-2 order-lg-1 mb-3 mb-lg-0">
+                    <ul class="list-unstyled nav-links m-0 nav-left">
+                        <li><a href="#">Terms</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-4 text-lg-right order-3 order-lg-3">
+                    <p class="m-0 text-muted"><small>&copy; 2019. All Rights Reserved.</small></p>
+                </div>
+            </div>
+        </div>
+
+        <!-- </footer> -->
+
+        <!-- Contact Us: <a href="mailto:teamcuc18@gmail.com" target="_blank">Team CUC</a>
         <p>Going To Internet, Ltd Consumer Website</p>
-        <p>©Copyright 2021 - GoingToInternet</p>
+        <p>©Copyright 2021 - GoingToInternet</p> -->
 
         <!------ Scroll back <button>     ------------------------ -->
 
@@ -204,47 +372,14 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous">
         </script>
-    <script type="text/javascript">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-        //  chidiyan udane ka code hai niche dhyan se---------------
-
-        function myMove() { alert("hello"); }
-        window.onload = myMove;
-
-        var id1 = null;
-        var id2 = null;
-        function myMove() {
-            var elem1 = document.getElementById("birdLR");
-            var elem2 = document.getElementById("birdRL");
-            var pos1 = 0;
-            var pos2 = 0;
-            clearInterval(id1);
-            clearInterval(id2);
-            id1 = setInterval(frame1, 10);
-            id2 = setInterval(frame1, 10);
-            function frame1() {
-                if (pos1 == 200) {
-                    clearInterval(id1);
-                }
-                if (pos1 == 200) {
-                    clearInterval(id1);
-                }
-                else {
-                    pos1 = pos1 + 1;
-                    pos2 = pos2 + 1;
-                    elem1.style.top = -1.5 * pos1 + 'px';
-                    elem1.style.left = 0.5 * pos1 + 'px';
-                    elem2.style.top = -1.5 * pos2 + 'px';
-                    elem2.style.left = -0.5 * pos2 + 'px';
-                }
-            }
-        }
-//  chidiyan udane ka code hai upar dhyan se ---------------
-
-
+    <!-- aos js  -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
     </script>
     <script src="home.js"></script>
-
 </body>
 
 
