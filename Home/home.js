@@ -1,7 +1,4 @@
 // Play initial animations on page load.
-function myMove() { alert("hello"); }
-window.onload = myMove;
-
 $window.on('load', function() {
     window.setTimeout(function() {
         $body.removeClass('is-preload');
@@ -22,44 +19,6 @@ if ($banner.length > 0
     });
 
 }
-
-
-//  chidiyan udane ka code hai niche dhyan se---------------
-
-// function myMove() { alert("hello"); }
-// window.onload = myMove;
-
-var id1 = null;
-var id2 = null;
-function myMove() {
-    var elem1 = document.getElementById("birdLR");
-    var elem2 = document.getElementById("birdRL");
-    var pos1 = 0;
-    var pos2 = 0;
-    clearInterval(id1);
-    clearInterval(id2);
-    id1 = setInterval(frame1, 10);
-    id2 = setInterval(frame1, 10);
-    function frame1() {
-        if (pos1 == 250) {
-            clearInterval(id1);
-        }
-        if (pos1 == 250) {
-            clearInterval(id1);
-        }
-        else {
-            pos1 = pos1 + 1;
-            pos2 = pos2 + 1;
-            elem1.style.top = -1.5 * pos1 + 'px';
-            elem1.style.left = pos1 + 'px';
-            elem2.style.top = -1.5 * pos2 + 'px';
-            elem2.style.right = pos2 + 'px';
-        }
-    }
-}
-//  chidiyan udane ka code hai upar dhyan se ---------------
-
-
 //Get the button
 var mybutton = document.getElementById("back-to-top");
 
