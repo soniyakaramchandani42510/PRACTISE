@@ -53,6 +53,7 @@ background-size: cover;
 .navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
   /* color: rgba(255,255,255,.75); */
   background-color: grey;
+ 
   
 }
 .navbar-brand img{
@@ -81,219 +82,196 @@ background-size: cover;
   /*---------------------- -------------------foooter style --------------------------------- */
   /*---------------------- -------------------foooter style --------------------------------- */
   /* <link href='https://fonts.googleapis.com/css?family=Boogaloo' rel='stylesheet'> */
- .container{
+ /* .container{
    display: flex;
    align-items: center;
    justify-content: center;
- }
-  .site-footer
+   
+ } */
+ a {
+  -webkit-transition: .3s all ease;
+  -o-transition: .3s all ease;
+  transition: .3s all ease; }
+  a, a:hover {
+    text-decoration: none !important; }
 
+.footer-59391 {
+  border-top: 1px solid #efefef;
+  background-color: #fff;
+  height:270px;
+  /* background-color: black; */
+  font-family: "Poppins", sans-serif;
+  padding: 4rem 0; }
 
-{
-  height: fit-content;
-  width: 100%;
-  text-align:center;
-  padding-top: 20px;
-  background-color:#26272b;
-  padding:45px 0 20px;
-  /* font-size:15px; */
-  font-size: 0.9rem;
-  font-family: 'Boogaloo';
-  line-height:24px;
-  color:#737373;
-  position:relative;
-  bottom: -370px;
-}
-.site-footer hr
-{
-  border-top-color:#bbb;
-  opacity:0.5
-}
-.site-footer hr.small
-{
-  margin:20px 0
-}
-.site-footer h6
-{
-  color:#fff;
-  font-size:16px;
-  text-transform:uppercase;
-  margin-top:5px;
-  letter-spacing:2px
-}
-.site-footer a
-{
-  color:#737373;
-}
-.site-footer a:hover
-{
-  color:#3366cc;
-  text-decoration:none;
-}
-.footer-links
-{
-  padding-left:0;
-  list-style:none
-}
-/* .footer-links li
-{
-  display:block
+.footer-59391 .site-logo a {
+  font-size: 30px;
+  color: #3e64ff;
+  font-weight: 900; }
+
+.footer-59391 .nav-links li {
+  display: inline-block; }
+
+.footer-59391 .nav-links li a {
+  color: #777;
+  padding: 10px; }
+
+.footer-59391 .nav-links li a:hover {
+color: #3e64ff; }
+
+.footer-59391 .nav-links.nav-left li:first-child {
+padding-left: 0; }
+
+.footer-59391 .nav-links.nav-right li:last-child {
+padding-right: 0; }
+
+.footer-59391 .copyright {
+border-top: 1px solid #efefef;
+padding-top: 50px;
+text-align: center;
+color: #777; }
+
+.footer-59391 .subscribe .form-group {
+margin-bottom: 0;
+padding-bottom: 0;
+position: relative; }
+
+.footer-59391 .subscribe .form-group input[type="email"] {
+  height: 45px;
+  border: none;
+  background: #e6e6e6; }
+
+.footer-59391 .subscribe .form-group input[type="email"]:focus, .footer-59391 .subscribe .form-group input[type="email"]:active {
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none; }
+
+.footer-59391 .subscribe .form-group input[type="email"]::-webkit-input-placeholder {
+  color: #b3b3b3;
+  font-size: 14px; }
+
+.footer-59391 .subscribe .form-group input[type="email"]::-moz-placeholder {
+  color: #b3b3b3;
+  font-size: 14px; }
+
+.footer-59391 .subscribe .form-group input[type="email"]:-ms-input-placeholder {
+  color: #b3b3b3;
+  font-size: 14px; }
+
+.footer-59391 .subscribe .form-group input[type="email"]:-moz-placeholder {
+  color: #b3b3b3;
+  font-size: 14px; }
+
+.footer-59391 .subscribe .form-group button {
+  position: absolute;
+  border: none;
+  background: none;
+  font-size: 1.5rem;
+  /* -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg); */
+  top: .5rem;
+  right: .3rem;
+  line-height: 0; }
+
+.footer-59391 .subscribe .form-group button:focus, .footer-59391 .subscribe .form-group button:active {
+  outline: none; }
+
+.footer-59391 .social li {
+display: inline-block;
+position: relative; }
+
+.footer-59391 .social li a {
+position: relative;
+width: 40px;
+height: 40px;
+border-radius: 50%;
+display: inline-block;
+margin: 0;
+padding: 0;
+background-color: #e6e6e6;
+/* background-color: #2f90d1; */
+color: #333333; }
+
+.footer-59391 .social li a > span {
+position: absolute;
+top: 50%;
+left: 50%;
+-webkit-transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+transform: translate(-50%, -50%); }
+
+/* .footer-59391 .social li a:hover {
+color: black; 
+color: rgb(218, 87, 47); 
+background-color: hotpink;
 } */
-.footer-links a
-{
-  color:#737373
+
+#content{
+/* background-color: gray; */
+width: 600vh;
+/* padding: 40px 40px; */
 }
-.footer-links a:active,.footer-links a:focus,.footer-links a:hover
-{
-  color:#3366cc;
-  text-decoration:none;
+#mail {
+color:#dc4e41 ;
+/* background-color: teal; */
+/* background-color: white; */
 }
-.footer-links.inline li
-{
-  display:inline-block
+#twitter a:hover{
+background: #55acee;
+color: white; 
 }
-.site-footer .social-icons
-{
-  text-align:right
-}
-.site-footer .social-icons a
-{
-  width:40px;
-  height:40px;
-  line-height:40px;
-  margin-left:6px;
-  margin-right:0;
-  border-radius:100%;
-  background-color:#33353d
-}
-.copyright-text
-{
-  margin:0
-}
-@media (max-width:991px)
-{
-  .site-footer [class^=col-]
-  {
-    margin-bottom:30px
-  }
-}
-@media (max-width:767px)
-{
-  .site-footer
-  {
-    padding-bottom:0
-  }
-  .site-footer .copyright-text,.site-footer .social-icons
-  {
-    text-align:center
-  }
-}
-#sicon{
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  width: 100%;
-}
-.social-icons
-{
-  align-items: center;
-  justify-content: center;
-  /* padding-left:0; */
-  padding-right: 0;
-  margin-bottom:0;
-  list-style:none
-}
-.social-icons li
-{
-  display:inline-block;
-  margin-bottom:4px
-}
-.social-icons li.title
-{
-  /* margin-right:15px; */
-  text-transform:uppercase;
-  color:#96a2b2;
-  font-weight:700;
-  font-size:13px
-}
-.social-icons a{
-  background-color:#eceeef;
-  color:#818a91;
-  font-size:16px;
-  display:inline-block;
-  line-height:44px;
-  width:44px;
-  height:44px;
-  text-align:center;
-  /* margin-right:8px; */
-  border-radius:100%;
-  -webkit-transition:all .2s linear;
-  -o-transition:all .2s linear;
-  transition:all .2s linear
-}
-.social-icons a:active,.social-icons a:focus,.social-icons a:hover
-{
-  color:#fff;
-  background-color:#29aafe
-}
-.social-icons.size-sm a
-{
-  line-height:34px;
-  height:34px;
-  width:34px;
-  font-size:14px
-}
-.social-icons a.facebook:hover
-{
-  background-color:#3b5998
-}
-.social-icons a.twitter:hover
-{
-  background-color:#00aced
-}
-.social-icons a.linkedin:hover
-{
-  background-color:#007bb6
-}
-.social-icons a.dribbble:hover
-{
-  background-color:#ea4c89
+#twitter a{
+/* background: white; */
+color:  #55acee;
 }
 
-@media (max-width:767px)
-{
-  .social-icons li.title
-  {
-    display:block;
-    margin-right:0;
-    font-weight:600
-  
-  }
+#github a:hover{
+background: black;
+color: white;
 }
+#facebook a:hover{
+background: #3b5998;
+color: white;
+}
+#facebook a{
+/* background: #3b5998; */
+color: #3b5998;
+}
+#linkedin a:hover{
+background: #0077b5;
+color: white;
+}
+#linkedin a{
+/* background: #0077b5; */
+color: #0077b5;
+}
+
+
 
 /* ------------------------------back to top button----------------------------- */
 .back-to-top {
-  position: relative;
-  z-index: 2; }
-  .back-to-top .btn-dark {
-    width: 35px;
-    height: 35px;
-    border-radius: 50%;
-    padding: 0;
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background: #2e2e2e;
-    border-color: #2e2e2e;
-    display: none;
-    z-index: 999;
-    -webkit-transition: all 0.3s linear;
-    -o-transition: all 0.3s linear;
-    transition: all 0.3s linear; }
-    .back-to-top .btn-dark:hover {
-      cursor: pointer;
-      background: #4273fa;
-      border-color: #FA6742; }
+position: relative;
+z-index: 2; }
+.back-to-top .btn-dark {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  padding: 0;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #2e2e2e;
+  border-color: #2e2e2e;
+  display: none;
+  z-index: 999;
+  -webkit-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  transition: all 0.3s linear; }
+  .back-to-top .btn-dark:hover {
+    cursor: pointer;
+    background: #4273fa;
+    border-color: #FA6742; }
+    
       
 /*Code for accordian cards*/
 
